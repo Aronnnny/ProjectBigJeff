@@ -1,0 +1,34 @@
+@model Sistema_Pedidos.Models.ProductModel;
+<div class="row">
+
+    <div class="offset-4 col-4">
+        <div class="card">
+            <div class="card-header">
+                Editar Produto
+            </div>
+            <div class="card-body">
+
+                <form action="/Product/Cadastrar" method="post">
+                     <label>Id</label>
+                    <input class="form-control" type="text" name="Id" readonly value="@Model.id" />
+                    <div>
+                        <label for="">Descrição:</label>
+                        <input type="text" name="product" value="@Model.product">
+                    </div>
+
+                    <div>
+                        <label for="">Quantidade:</label>
+                        <input type="number" name="quantity" value="@Model.quantity">
+                    </div>
+
+                    <div>
+                        <label for="">Valor:</label>
+                        <input type="number" name="totalValue" value="@Model.totalValue">
+                    </div>
+                        <br>
+                    <button type="submit" class="btn btn-success">Salvar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Programmers\\.nuget\\packages\\": {}
+    "C:\\Users\\Fatec\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aula1904\\Sistema_Pedidos\\Sistema_Pedidos.csproj",
+      "projectUniqueName": "C:\\Users\\Fatec\\ProjectBigJeff\\Sistema_Pedidos\\Sistema_Pedidos.csproj",
       "projectName": "Sistema_Pedidos",
-      "projectPath": "C:\\Aula1904\\Sistema_Pedidos\\Sistema_Pedidos.csproj",
-      "packagesPath": "C:\\Users\\Programmers\\.nuget\\packages\\",
-      "outputPath": "C:\\Aula1904\\Sistema_Pedidos\\obj\\",
+      "projectPath": "C:\\Users\\Fatec\\ProjectBigJeff\\Sistema_Pedidos\\Sistema_Pedidos.csproj",
+      "packagesPath": "C:\\Users\\Fatec\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fatec\\ProjectBigJeff\\Sistema_Pedidos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Programmers\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Fatec\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

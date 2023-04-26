@@ -7,7 +7,7 @@ namespace Sistema_Pedidos.Models
 {
     public class ProductModel
     {
-        public Guid id {get; set;}
+        public long id {get; set;}
         public string product {get; set;}
         public int quantity {get; set;}
         public double totalValue {get; set;}

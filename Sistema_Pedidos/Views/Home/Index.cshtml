@@ -2,26 +2,25 @@
     ViewData["Title"] = "Home Page";
 }
 
-
 <div class="text-center">
     <h1 class="display-4">Register</h1>
     <div class="form-box">
-        <form class="form">
+        <form class="form" action="/Product/Cadastrar" method="post">
             <p>
             <div class="form__group field">
-                <input type="input" class="form__field" placeholder="Name" required="">
+                <input type="input" class="form__field" placeholder="Name" required="" name="Product">
                 <label for="name" class="form__label">Product Name</label>
             </div>
             </p>
             <p>
             <div class="form__group field">
-                <input type="input" class="form__field" placeholder="Quantity" required="">
+                <input type="input" class="form__field" placeholder="Quantity" required="" name="Quantity">
                 <label for="name" class="form__label">Quantity</label>
             </div>
             </p>
             <p>
             <div class="form__group field">
-                <input type="input" class="form__field" placeholder="Total Value" required="">
+                <input type="input" class="form__field" placeholder="Total Value" required="" name="totalValue">
                 <label for="name" class="form__label">Total Value</label>
             </div>
             </p>

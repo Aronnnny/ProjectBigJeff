@@ -1,0 +1,47 @@
+@model List<Sistema_Pedidos.Models.ProductModel>;
+ <h1>Listagem de Produtos</h1>
+ <br>
+
+    <div class="row">
+    <div class="col-4-2-2-2">
+        <div class="card">
+            <div class="card-header">
+                Lista de Produtos
+            </div>
+            <div class="card-body">
+
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Descrição</th>
+                            <th>Quantidade</th>
+                            <th>Valor</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (ProductModel produto in Model)
+                        {
+                            <tr>
+                                <td>@produto.id</td>
+                                <td>@produto.product</td>
+                                <td>@produto.quantity</td>
+                                <td>@produto.totalValue</td>
+
+                                <td>
+                                    <a href="/Product/Editar/@produto.id" class="btn btn-warning">Editar</a>
+                                    <a href="/Product/Excluir/@produto.id" class="btn btn-danger">Excluir</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+                <br>
+              
+        </div>
+    </div>
+        <a href="/Product/SalvarTxt" class="btn btn-success">Salvar em .txt</a>
+</div>
